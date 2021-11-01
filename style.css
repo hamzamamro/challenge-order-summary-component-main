@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    font-Weight: 500, 700, 900;
+    background-color: rgb(224, 232, 255);
+    padding-top: 10px;
+}
+
+body p{
+    font-size: 16px;
+}
+
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 5%;
+    box-shadow: 5px 10px 8px #888888;
+    position: relative;
+}
+
+
+.container .image img{
+    padding-left: 0;
+    width: 300px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    top: 0;
+    left: 0;
+}
+
+.container .text {
+    text-align: center;
+    top: 42%;
+    left: 0;
+}
+
+.container .text h3{
+    padding: 10px 10px;
+    color: #1c2b4d;
+}
+
+.container .text p{
+    padding-left: 23px;
+    padding-right: 23px;
+    color: #abaec0;
+}
+
+.audio-box{
+    width: 250px;
+    height: 70px;
+    background-color: #f8f9fe;
+    margin: 20px auto;
+    border-radius: 5%;
+    position: relative;
+}
+
+.audio-box img{
+    margin: 10px;
+    width: 45px;
+}
+
+.audio-box .text{
+    position: relative;
+    top: -79%;
+    left: -6%;
+}
+
+.audio-box .text h5{
+    color: #1c2b4d;
+}
+
+.audio-box .text p{
+    color: #abaec0;
+}
+
+.audio-box .text a{
+    position: absolute;
+    top: 23%;
+    left: 79%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.buttons{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.buttons .btn1{
+    width: 250px;
+    height: 40px;
+    left: 50%;
+    border: none;
+    border-radius: 5%;
+    background-color: #766cf1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c2b4d;
+    text-decoration: none;
+    top: 77%;
+    left: 45%;
+    padding-top: 20px;
+    margin-right: 10px;
+}
